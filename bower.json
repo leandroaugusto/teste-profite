@@ -1,0 +1,20 @@
+{
+  "name": "teste-profite",
+  "description": "teste",
+  "main": "index.js",
+  "authors": [
+    "leandro costa"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/leandroaugusto/teste-profite",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "15.2.1"
+  }
+}

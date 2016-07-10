@@ -1,0 +1,33 @@
+{
+	"banners": [
+		{
+			"desk": "banner1.jpg",
+			"mobile": "banner1_mobile.jpg"
+		},
+		{
+			"desk": "banner2.jpg",
+			"mobile": "banner2_mobile.jpg"
+		}
+	],
+	"products": [
+		{
+			"name": "Tênis Democrata Fan",
+			"img": "calçado4.png",
+			"for": "219,90",
+			"price": "159,92",
+			"times": "7",
+			"value_times": "22,84",
+			"link": "#",
+			"save_value": "59,98"
+		},
+		{
+			"name": "Chinelo Kilcare",
+			"img": "calçado2.png",
+			"price": "79,92",
+			"times": "3",
+			"value_times": "26,64",
+			"link": "#",
+			"save_value": "19,98"
+		}
+	]
+}

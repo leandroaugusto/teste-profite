@@ -1,0 +1,11 @@
+/*style.css*/
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: block;
+}
+
+h1 {
+	transition: 1s;
+}

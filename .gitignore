@@ -1,0 +1,13 @@
+# NPM
+node_modules/
+logs
+*.log
+npm-debug.log*
+
+# BOWER
+bower_components/
+
+# OSX
+Thumbs.db
+.Trashes
+*.DS_Store
