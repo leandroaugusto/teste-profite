@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
 	del = require('del'),
+	// babel = require('gulp-babel'),
 	concat = require('gulp-concat'),
 	jshint = require('gulp-jshint'),
 	uglify = require('gulp-uglify'),
@@ -73,7 +74,8 @@ gulp.task('styles', function() {
 gulp.task('scripts', function() {
 	return gulp.src(paths.scripts)
 		.pipe(sourcemaps.init())
-		.pipe(uglify())
+		// .pipe(uglify())
+		// .pipe(babel({ presets: ['es2015'] }))
 		.pipe(concat('main.min.js'))
 		.pipe(sourcemaps.write())
 		.pipe(gulp.dest(bases.dist+'scripts'))

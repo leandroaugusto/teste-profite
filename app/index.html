@@ -7,48 +7,18 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="stylesheet" href="styles/style.min.css">
+	<!-- <script src="scripts/main.min.js"></script> -->
+	
 	<script src="scripts/components/react/react.js"></script>
     <script src="scripts/components/react/react-dom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
-	<script src="scripts/main.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script> -->
+    <script src="scripts/components/babel-standalone/babel.js"></script>
 </head>
 <body>
 	<!-- <h1>Hello!</h1> -->
-	<div id="example"></div>
+	<div id="application"></div>
 
-	<script type="text/babel">
-		var PRODUCTS = obj;
-
-		var ProductsContainer = React.createClass({
-			render: function(){
-				return (
-					<div class="products-container">
-						<CarouselProducts data={this.props.data} />
-					</div>
-				);
-			}
-		});
-
-		var CarouselProducts = React.createClass({
-			render: function(){
-				var productNodes = this.props.data.map(function (product) {
-					console.log(productNodes);
-					return <Product ammount={product.ammount} checked={product.checked}>{product.name}</Product>;
-				});
-				return (
-					<div class="item">
-						{productNodes}
-					</div>
-				);
-			}
-		});
-
-		ReactDOM.render(
-			<h1>Hello, world!</h1>,
-			// <ProductsContainer data={PRODUCTS} />,
-			document.getElementById('example')
-		);
-	</script>
+	<script type="text/babel" src="scripts/main.min.js"></script>
 	
 </body>
 </html>

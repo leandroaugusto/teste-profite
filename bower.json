@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "react": "15.2.1"
+    "react": "15.2.1",
+    "babel-standalone": "6.10.3"
   }
 }

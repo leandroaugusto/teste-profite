@@ -12,7 +12,7 @@
 	"products": [
 		{
 			"name": "Tênis Democrata Fan",
-			"img": "calçado4.png",
+			"img": "calcado4.png",
 			"for": "219,90",
 			"price": "159,92",
 			"times": "7",
@@ -22,7 +22,7 @@
 		},
 		{
 			"name": "Chinelo Kilcare",
-			"img": "calçado2.png",
+			"img": "calcado2.png",
 			"price": "79,92",
 			"times": "3",
 			"value_times": "26,64",
