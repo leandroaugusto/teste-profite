@@ -15,10 +15,87 @@
     <script src="scripts/components/babel-standalone/babel.js"></script>
 </head>
 <body>
-	<!-- <h1>Hello!</h1> -->
+	<header id="header">
+		<div class="wrapper">
+			<h1><a href="#">Logo Profite</a></h1>
+
+			<div class="visitor">
+				<h2>Olá, visitante</h2>
+				<a href="#" class="visitor-link">Cadastre-se</a>
+				<span> - </span>
+				<a href="#" class="visitor-link">Login</a>
+			</div>
+
+			<form action="" id="form">
+				<label for="">
+					<input type="search" placeholder="Buscar por ...">
+				</label>
+			</form>
+
+			<div class="languages">
+				<ul class="content-flags">
+					<li class="br">
+						<a href="#">Brasil</a>
+					</li>
+					<li class="ar">
+						<a href="#">Argentina</a>
+					</li>
+					<li class="cn">
+						<a href="#">Canadá</a>
+					</li>
+				</ul>
+				<p class="skype">11 33375618</p>
+			</div>
+		</div>
+	</header>
+
+	<div class="banners">
+		<div class="wrapper">
+			<!-- Navigation Banners -->
+			<span class="arrows-banner prev">left</span>
+			<span class="arrows-banner next">right</span>
+
+			<div class="carousel-banners">
+				<ul class="content-banners">
+					<li class="item-banner">
+						<img src="images/banner/banner1.jpg" alt="" class="img-banner">
+					</li>
+					<li class="item-banner">
+						<img src="images/banner/banner2.jpg" alt="" class="img-banner">
+					</li>
+					<li class="item-banner">
+						<img src="images/banner/banner3.jpg" alt="" class="img-banner">
+					</li>
+					<li class="item-banner">
+						<img src="images/banner/banner4.jpg" alt="" class="img-banner">
+					</li>
+					<li class="item-banner">
+						<img src="images/banner/banner5.jpg" alt="" class="img-banner">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
 	<div id="application"></div>
 
+	<footer id="footer">
+		<div class="wrapper">
+			<div class="places rj">
+				<p class="address">Rua do Acre, 77 - sala 1108 Centro - Rio de Janeiro</p>
+				<p class="phone">tel.: +55 (21) 2263.6044</p>
+			</div>
+			<div class="places sp">
+				<p class="address">Rua Cardoso de melo, 1750 6º Andar Vila Olímpia</p>
+				<p class="phone">tel.: +55 (21) 2263.6044</p>
+			</div>
+			<div class="contact">
+				<a href="#" class="contact-links mail">entre em <b>contato</b></a>
+				<a href="#" class="contact-links online">fale com o nosso <b>consultor online</b></a>
+			</div>
+		</div>
+	</footer>
+
 	<script type="text/babel" src="scripts/main.min.js"></script>
-	
 </body>
 </html>

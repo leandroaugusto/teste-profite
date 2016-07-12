@@ -7,6 +7,18 @@
 		{
 			"desk": "banner2.jpg",
 			"mobile": "banner2_mobile.jpg"
+		},
+		{
+			"desk": "banner3.jpg",
+			"mobile": "banner3_mobile.jpg"
+		},
+		{
+			"desk": "banner4.jpg",
+			"mobile": "banner4_mobile.jpg"
+		},
+		{
+			"desk": "banner5.jpg",
+			"mobile": "banner5_mobile.jpg"
 		}
 	],
 	"products": [
@@ -23,6 +35,7 @@
 		{
 			"name": "Chinelo Kilcare",
 			"img": "calcado2.png",
+			"for": "",
 			"price": "79,92",
 			"times": "3",
 			"value_times": "26,64",

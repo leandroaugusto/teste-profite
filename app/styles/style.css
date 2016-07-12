@@ -1,11 +1,191 @@
 /*style.css*/
-body {
-	margin: 0;
-	padding: 0;
+html {
+	font-size: 16px;
+}
+html, body {
+	position: relative;
 	text-align: center;
-	display: block;
+	height: 100%;
 }
 
-h1 {
-	transition: 1s;
+.wrapper {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* Header */
+	header {
+		width: 100%;
+		height: 8.5rem;
+		position: relative;
+	}
+	header h1, header .visitor, header form, header .languages {
+		display: inline-block;
+		vertical-align: middle;
+		position: relative;
+	}
+	header h1 {
+		height: 100%;
+	}
+	header h1 a {
+		text-indent: -9999px;
+		display: block;
+		background-image: url(img/profite_logo_novo.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 15rem;
+		height: 100%;
+	}
+
+	header .visitor {
+		text-align: left;
+		margin: 0 2rem;
+	}
+	header .visitor h2 {
+		font-family: 'OSbold';
+		font-size: 1.25rem;
+		margin-bottom: 0.2rem;
+	}
+	header .visitor a, header .visitor span {
+		font-family: 'OSregular';
+		text-decoration: none;
+		color: #000;
+		font-size: 0.9rem;
+	}
+
+	header form {
+		width: 20rem;
+		height: 2rem;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+	header form label {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		background-color: #fac437;
+		display: block;
+	}
+	header form label:before {
+		content: '';
+		background-image: url(img/ícone_pesquisa.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: auto 68%;
+		background-color: #000;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		width: 12%;
+		height: 100%;
+		position: relative;
+		float: left;
+	}
+	header form input::-webkit-input-placeholder,
+	header form input::-moz-placeholder,
+	header form input::-ms-input-placeholder,
+	header form input::-moz-placeholder,
+	header form input {
+		color: #000;
+		font-size: 0.8rem;
+	}
+	header form input {
+		border: 0;
+		background-color: transparent;
+		font-family: 'OSregular';
+		outline: none;
+		width: 88%;
+		float: left;
+		padding: 0.4rem 0 0 0.3rem;
+		box-sizing: border-box;
+	}
+
+	header .languages {
+		margin-left: 3.2rem;
+	}
+	header .languages .skype {
+		font-family: 'OSbold';
+		margin-top: .2rem;
+		color: #00aff0;
+		font-size: 1.12rem;
+	}
+	header .languages .skype:before {
+		content: '';
+		background-image: url(img/skype.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		display: inline-block;
+		vertical-align: text-bottom;
+		width: 2rem;
+		height: 2rem;
+	}
+	header .content-flags li {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 .1rem;
+	}
+	header .content-flags li a {
+		text-indent: -9999px;
+		display: block;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 1.8rem;
+		height: 1.8rem;
+	}
+	header .content-flags li.br a {
+		background-image: url(img/bandeira1.png);
+	}
+	header .content-flags li.ar a {
+		background-image: url(img/bandeira2.png);
+	}
+	header .content-flags li.cn a {
+		background-image: url(img/bandeira3.png);
+	}
+
+/* Banners */
+.banners {
+	width: 100%;
+	position: relative;
+	background-color: #fac437;
+	overflow: hidden;
+}
+.banners .arrows-banner {
+	position: absolute;
+	top: 10rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 1rem;
+	height: 2rem;
+	text-indent: -9999px;
+	display: block;
+	cursor: pointer;
+}
+.banners .arrows-banner.prev {
+	background-image: url(img/seta_esquerda.png);
+	left: -2.5rem;
+}
+.banners .arrows-banner.next {
+	background-image: url(img/seta_direita.png);
+	right: -2.5rem;
+}
+
+.banners .carousel-banners {
+	width: 100%;
+	overflow: hidden;
+	max-height: 22rem;
+}
+.banners .content-banners {
+	white-space: nowrap;
+	width: auto;
+	height: 100%;
+	display: block;
+	position: relative;
+}
+.banners .carousel-banners .banner {
+	display: inline-block;
+	margin-right: -4px;
 }
